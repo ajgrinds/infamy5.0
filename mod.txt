@@ -1,0 +1,15 @@
+{
+	"name": "Infamy 5.0",
+	"description": "gottem",
+	"author": "aj",
+	"contact": "",
+	"version": "1.7",
+	"hooks": 
+	[
+		{ "hook_id" : "lib/managers/chatmanager", 
+		  "script_path" : "reply.lua" },
+		{ "hook_id" : "lib/managers/skilltreemanager",
+		  "script_path" : "skills.lua" }
+	]
+
+}
